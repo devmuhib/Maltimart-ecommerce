@@ -1,0 +1,55 @@
+.hero__section {
+    background: var(--hero-bg);
+}
+
+.hero__content {
+   padding-top: 45px; 
+}
+
+.timer__count {
+    background: var(--primary-color);
+    height: 300px;
+}
+
+.timer__count  img {
+    width: 70% !important;
+    height: 70% !important;
+    object-fit: contain;
+}
+
+.store__btn {
+    background: #fff;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.store__btn a:hover {
+    color: var(--primary-color);
+}
+
+.hero__img {
+    overflow: hidden;
+}
+
+.hero__img:hover > img {
+    transform: scale(1.1);
+    transition: all 1s linear;
+}
+
+.hero__img > img {
+    transition: all 1s linear;
+}
+
+
+.box__image {
+    position: relative;
+    padding: 10px 0 10px 0;
+}
+
+.text__image {
+    position: absolute;
+    z-index: 10000;
+    bottom: 30px;
+    left: 30px;
+}
+

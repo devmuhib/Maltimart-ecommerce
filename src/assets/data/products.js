@@ -7,10 +7,7 @@ import productImg05 from "../images/single-sofa-02.jpg";
 import productImg06 from "../images/single-sofa-03.jpg";
 import productImg007 from "../images/single-sofa-04.png";
 
-import productImg07 from "../images/arm-chair-01.jpg";
-import productImg08 from "../images/arm-chair-02.jpg";
-import productImg09 from "../images/arm-chair-03.jpg";
-import productImg10 from "../images/arm-chair-01.jpg";
+
 
 import productImg13 from "../images/phone-01.jpg";
 import productImg14 from "../images/phone-02.jpg";
@@ -27,6 +24,11 @@ import productImg22 from "../images/watch-04.jpg";
 import productImg23 from "../images/wireless-01.png";
 
 import productImg25 from "../images/wireless-03.png";
+
+const productImg08 = "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-2-800x550.jpg";
+const productImg09 = "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-2-800x550.jpg";
+const  productImg07 = "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-1-800x550.jpg";
+const  productImg10 = "https://arredo.qodeinteractive.com/wp-content/uploads/2018/05/h3-product-img-1-800x550.jpg";
 
 const products = [
   {

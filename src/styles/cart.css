@@ -1,0 +1,35 @@
+.notification__cart {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* border: 1px solid #e1e1e1; */
+    padding: 20px 0;
+}
+
+.notification__cart div:first-child {
+    font-weight: 500;
+    border: 1px solid #e1e1e1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+.notification__cart > .return__home {
+    border: 1px solid #e1e1e1;
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: white;
+    font-weight: 100;
+    padding: 10px 20px;
+    margin-top: 20px;
+}
+
+.return__home > a:hover {
+    color: white;
+}
+

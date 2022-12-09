@@ -6,7 +6,7 @@ const serviceData = [
     bg: "#fdefe6",
   },
   {
-    icon: "ri-refresh-line",
+    icon: "ri-refresh-line", 
     title: "Easy Returns",
     subtitle: "Lorem ipsum dolor sit amet.",
     bg: "#ceebe9",

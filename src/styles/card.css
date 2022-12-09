@@ -1,0 +1,29 @@
+.card__item {
+    overflow: hidden;
+    position: relative;
+}
+
+
+
+.card__img:hover > img{
+    transition: all 1s linear;
+    transform: scale(1.1);
+}
+
+.card__img > img {
+    transition: all 1s linear;
+}
+
+.card__img {
+    overflow: hidden;
+}
+
+.card__infor {
+    padding: 30px 10px 50px 10px;
+    text-align: center;
+}
+
+.card__infor > .card__name {
+    font-size: 18px;
+    font-weight: 500;
+}

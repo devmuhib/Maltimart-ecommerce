@@ -1,6 +1,6 @@
 /* google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 /*  css variables */
 :root {
   --card-bg-01: #fdefe6;
@@ -22,7 +22,7 @@
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Overpass', sans-serif;
 }
 
 h1,
@@ -48,9 +48,50 @@ h2 {
 
 ul {
   list-style: none;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 
 a {
   text-decoration: none;
   color: unset;
 }
+
+img {
+  width: 100%;
+}
+
+section {
+  padding: 60px 0;
+}
+
+.section__title {
+  color: var(--primary-color);
+  font-weight: 600;
+  text-align: center;
+}
+
+.back__top {
+  position: fixed;
+  background-color: var(--card-bg-04);
+  bottom: 40px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  transition: all 1s ease-in-out;
+}
+
+.hidden__button {
+  display: none;
+  transition: all 1s ease-in-out;
+}
+
+.line__page {
+  height: 1px;
+  background-color: rgba(1, 1, 1, 0.4);
+}
+

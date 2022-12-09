@@ -1,0 +1,36 @@
+.detail__product-box {
+    margin: 50px 0;
+    padding: 0;
+}
+
+.rate__product {
+    display: flex;
+    align-items: center;
+    margin: .7rem 0;
+}
+
+.product__desc {
+    margin: 2rem 0;
+}
+
+.btn__addtocart > button{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+}
+
+@media only Screen and (max-width:768px) {
+    .name__product {
+        font-size: 1.4rem;
+    }
+
+    .product__desc {
+        font-size: .8rem;
+    }
+    .btn__addtocart > button{
+        padding: 3px 6px;
+        font-size: 1rem;
+    }
+}
