@@ -1,0 +1,9 @@
+.common_section{
+    background-color: rgb(82, 92, 92);
+height:300px
+}
+.common_section h1{
+
+    color: white;
+    font-weight: 600;
+}
