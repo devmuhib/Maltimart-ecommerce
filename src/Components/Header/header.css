@@ -23,6 +23,9 @@ section{
     width: 100%;
     height:70px;
     line-height: 70px;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
 }
 .logo{
     display: flex;

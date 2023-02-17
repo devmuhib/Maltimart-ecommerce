@@ -1,6 +1,11 @@
 .common_section{
-    background-color: rgb(82, 92, 92);
-height:300px
+    background-color: rgb(95, 148, 148);
+height:300px;
+display: flex;
+align-items: center;
+padding: 100px 0px;
+justify-content: center;
+
 }
 .common_section h1{
 

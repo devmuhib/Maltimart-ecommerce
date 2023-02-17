@@ -6,14 +6,14 @@ import './services.css';
 import serviceData from '../data/serviceData';
 
 const Services = () => {
-    serviceData.map((a)=>
+    serviceData?.map((a)=>
     console.log("AAAAA",a))
   return (
     <>
       <section className="services">
         <Container>
           <Row>
-            {serviceData.map((item,index) => (
+            {serviceData?.map((item,index) => (
 
               <Col ld="4" md="3" key={index}>
                 <div className="service_item" style={{background:`${item.bg}`}}>
