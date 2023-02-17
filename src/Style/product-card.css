@@ -2,6 +2,10 @@
     height: 250px;
     width: 250px;
 }
+.product_images img{
+    height: 250px;
+    width: 250px;
+}
 .product_info h3{
 font-size: 1rem;
 font-weight: 600;
@@ -51,4 +55,17 @@ font-weight: 500;
     background-color: white;
     color: black;
     font-weight: 600;
+}
+.product_details h2{
+    margin-top: 40px;
+
+}
+.averagerating{
+    color: rgb(255, 149, 1);
+
+}
+.price_product{
+    font-weight: bold;
+    font-size: 1.5rem;
+
 }

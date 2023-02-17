@@ -5,7 +5,7 @@ import './header.css';
 import { Container, Row } from 'reactstrap';
 import logo from '../../assets/images/eco-logo.png';
 import { motion } from 'framer-motion';
-import { NavLink } from 'react-router-dom';
+import { Navigate, NavLink,useNavigate } from 'react-router-dom';
 import { BiHeart } from 'react-icons/bi';
 import { AiOutlineShoppingCart } from 'react-icons/ai';
 import { AiOutlineMenuUnfold } from 'react-icons/ai';
@@ -31,7 +31,11 @@ const nav_links = [
 const Header = (props) => {
     const headerRef=useRef(null);
     const totalQuantity=useSelector(state=>state.cart.totalQuantity)
+    const navigate=useNavigate();
     const menuRef=useRef(null);
+    const navigateToCart=()=>{
+      navigate("/Cart")
+    }
 
   return (
     <>
@@ -68,7 +72,7 @@ const Header = (props) => {
                   <BiHeart />
                   <p className="badge">1</p>
                 </span>
-                <span className="cart_icon">
+                <span className="cart_icon" onClick={navigateToCart}>
                   <AiOutlineShoppingCart />
                   <p className="badge">{totalQuantity}</p>
 
