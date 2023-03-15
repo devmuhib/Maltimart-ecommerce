@@ -9,11 +9,29 @@ import '../Style/product-card.css'
 import { AiOutlineStar } from "react-icons/ai";
 import { AiTwotoneStar } from "react-icons/ai";
 import { FcRating } from "react-icons/fc";
-const Product = (tab) => {
+import { cartActions } from '../redux/Slices/CartSlice';
+import { useDispatch } from 'react-redux';
+import {toast } from 'react-toastify';
+const Product = ({tab,item}) => {
+  const dispatch=useDispatch();
+  console.log("dispatch",item);
+  const addCart=()=>{
+      dispatch(
+          cartActions.addItem({
+
+              id:item?.item?.id,
+              productName:item?.item?.productName,
+              price:item?.item?.price,
+              imgUrl:item?.item?.imgUrl
+          })
+      );
+      toast.success('product added to the cart')
+  }
   const { id } = useParams()
   const product = products.find((A) => A?.id == id);
   const { imgUrl, productName, price, avgRating, shortDesc, reviews, description } = product
   return (
+
     <>
       <Helmet title={productName}>
 
@@ -39,7 +57,7 @@ const Product = (tab) => {
                 </div>
                 <p className='price_product'>${price}</p>
                 <p>{shortDesc}</p>
-                <motion.button whileHover={{ scale: 0.9 }} className='buy_btn'>Add to cart</motion.button>
+                <motion.button whileHover={{ scale: 0.9 }} className='buy_btn' onClick={addCart}>Add to cart</motion.button>
 
               </Col>
             </Row>

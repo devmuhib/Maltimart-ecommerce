@@ -52,7 +52,6 @@ console.log("cartitems",cartitems);
 }
 const Tr=({item})=>{
   const dispatch=useDispatch();
-    console.log("itemssss",item);
   const deleteproduct=()=>{
     dispatch(cartActions.deleteItem(item?.id))
   }
