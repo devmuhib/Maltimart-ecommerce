@@ -1,7 +1,13 @@
-import "./App.css";
+import React from 'react'
+import Layout from './Components/Layout/Layout'
+import Index from './redux/Slices/Index'
 
-function App() {
-  return <h1>hello world</h1>;
+const App = () => {
+  return (
+    <div>
+      <Layout/>
+    </div>
+  )
 }
 
-export default App;
+export default App

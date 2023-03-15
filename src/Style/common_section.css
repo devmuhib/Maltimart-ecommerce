@@ -1,0 +1,14 @@
+.common_section{
+    background-color: rgb(95, 148, 148);
+height:300px;
+display: flex;
+align-items: center;
+padding: 100px 0px;
+justify-content: center;
+
+}
+.common_section h1{
+
+    color: white;
+    font-weight: 600;
+}
