@@ -1,0 +1,22 @@
+.service__item {
+  padding: 20px;
+  background: var(--card-bg-01);
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  border-radius: 5px;
+}
+
+.service__item span i {
+  font-size: 2.2rem;
+  background: var(--primary-color);
+  padding: 10px;
+  border-radius: 50px;
+  color: #fff;
+}
+
+.service__item h3 {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 600;
+}
