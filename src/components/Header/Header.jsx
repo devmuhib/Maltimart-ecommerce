@@ -27,7 +27,7 @@ const nav__links = [
 
 const Header = () => {
   return (
-    <header className="header ">
+    <header className="header">
       <Container>
         <Row>
           <div className="nav__wrapper">
