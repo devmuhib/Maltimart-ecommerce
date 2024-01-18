@@ -34,7 +34,7 @@ const Header = () => {
             <div className="logo">
               <img src={logo} alt="logo" />
               <div>
-                <h1>Multimart</h1>
+                <h1>DecorMingle</h1>
               </div>
             </div>
 
